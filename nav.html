@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #319a78;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #034b33;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2{
+            color: #ff4141;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+            a:hover {
+                color: #ffcc00;
+            }
+
+        main {
+            max-width: 1000px;
+            margin: -23rem auto;
+            padding: 1rem;
+            background-color: #d1fff0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        section {
+            margin: 1rem 0;
+        }
+
+        .horizontal-navigation {
+            margin: 10px 0;
+            border: 1px solid #fff;
+            padding: 10px 209px 10px 209px;
+            margin: 0px;
+            transition: color 0.3s;
+        }
+
+            .horizontal-navigation:hover {
+                background-color: #5a5757;
+            }
+
+        .horizontal-navigations {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px;
+            margin: 40px -32px -32px -32px;
+        }
+
+        .vertical-navigation {
+            background-color: #034b33;
+            width: 200px;
+        }
+
+            .vertical-navigation ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .vertical-navigation li {
+                padding: 10px;
+                text-align: center;
+                border: 1px solid #fff;
+            }
+
+            .vertical-navigation a {
+                text-decoration: none;
+                color: white;
+                transition: color 0.3s;
+            }
+
+                .vertical-navigation a:hover {
+                    background-color: #5a5757;
+                }
+
+        .icon-item {
+            width: 178px;
+            height: 178px;
+            margin: 0px;
+        }
+
+            .icon-item img {
+                width: 178px;
+                height: 178px;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Моя сторінка</h1>
+        <p></p>
+        <div class="horizontal-navigations">
+            <div class="horizontal-navigation"><a href="#about">ПРО МЕНЕ</a></div>
+            <div class="horizontal-navigation"><a href="#interests">МОЇ ІНТЕРЕСИ</a></div>
+            <div class="horizontal-navigation"><a href="#education">ОСВІТА</a></div>
+        </div>
+    </header>
+    <div class="vertical-navigation">
+        <ul>
+            <li><a href="#1">Розділ 1</a></li>
+            <li><a href="#2">Розділ 2</a></li>
+            <li><a href="#3">Розділ 3</a></li>
+            <li><a href="#4">Розділ 4</a></li>
+            <li><a href="#5">Розділ 5</a></li>
+            <li class="icon-item"><a><img src="https://i.gifer.com/origin/68/68f87b37ccfde22769262c7cdc7b2b0b_w200.gif"></a></li>
+        </ul>
+    </div>
+    <main>
+        <section id="about">
+            <h2>ПРО МЕНЕ</h2>
+            <p id="1">Розділ 1</p>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<p id="2">Розділ 2</p>...<br>...<br>...<br>...<br>...<br>...
+        </section>
+        <section id="interests">
+            <h2>МОЇ ІНТЕРЕСИ</h2>
+            <p id="3">Розділ 3</p>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<p id="4">Розділ 4</p>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...
+        </section>
+        <section id="education">
+            <h2>ОСВІТА</h2>
+            <p id="5">Розділ 5</p>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...<br>...
+        </section>
+    </main>
+</body>
+</html>
